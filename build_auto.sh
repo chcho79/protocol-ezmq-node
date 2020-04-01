@@ -20,7 +20,7 @@ install_dependencies() {
         mkdir dependencies
         cd ./dependencies
         #clone ezmq-protocol-cpp
-        git clone -b v1.0_rel git@github.sec.samsung.net:RS7-EdgeComputing/protocol-ezmq-cpp.git
+        git clone -b v1.0_rel git@github.com:edgexfoundry-holding/protocol-ezmq-cpp.git
         cd $PROJECT_ROOT
     fi
 
